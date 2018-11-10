@@ -7,8 +7,13 @@ class App extends Component {
 	render() {
 		return (
 			<div className="site-body">
-				<div className="header">header</div>
-				<div className="body">body</div>
+				<div className="header">
+					<h1>Full Stack Developer: Shelly Leung</h1>
+				</div>
+				<div className="body">
+					<img src={logo} className="app-logo" />
+					<p classname="written">Stuff written</p>
+				</div>
 				<div className="navbar">nav</div>
 				<div className="footer">footer</div>
 			</div>
