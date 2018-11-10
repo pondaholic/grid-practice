@@ -8,10 +8,8 @@ class App extends Component {
 		return (
 			<div className="site-body">
 				<div className="header">header</div>
-				<div className="body">
-					body
-					<div className="navbar">nav</div>
-				</div>
+				<div className="body">body</div>
+				<div className="navbar">nav</div>
 				<div className="footer">footer</div>
 			</div>
 
