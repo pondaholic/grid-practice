@@ -15,7 +15,7 @@
 		'navbar .'
 		'body body'
 		'footer footer';
-	grid-gap: 10px;
+	/* grid-gap: 10px; */
 }
 
 .header {
