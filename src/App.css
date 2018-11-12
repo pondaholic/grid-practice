@@ -9,7 +9,7 @@
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 20% 70%;
-	grid-template-rows: 12% 5% 25% 25%;
+	grid-template-rows: 1fr 5% 800px 1fr;
 	grid-template-areas:
 		'header header'
 		'navbar .'
@@ -39,13 +39,16 @@ h1 {
 
 .written {
 	grid-area: paragraph;
+	color: white;
 }
 
 .body {
 	background-color: rgb(241, 241, 241);
 	grid-area: body;
 	grid-template-columns: 1fr 1fr;
-	grid-template-areas: 'paragraph image';
+	grid-template-areas: 'paragraph .';
+	background-image: url('./homepage.jpg');
+	background-size: cover;
 }
 
 .navbar {

@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import Image from './homepage.jpg';
 
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
 	render() {
+		let title = `{ Full Stack Developer : Shelly Leung }`;
 		return (
 			<div className="site-body">
 				<div className="header">
-					<h1>Full Stack Developer: Shelly Leung</h1>
+					{/* <img src={Image} alt="hand and code" /> */}
+					<h1>{title}</h1>
 				</div>
 				<div className="body">
-					<img src={logo} className="app-logo" />
+					{/* <img src={logo} className="app-logo" /> */}
 					<p classname="written">Stuff written</p>
 				</div>
 				<div className="navbar">nav</div>
