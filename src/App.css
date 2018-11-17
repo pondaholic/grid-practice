@@ -69,6 +69,11 @@ li {
 
 .footer {
 	grid-area: footer;
-	background-color: rgb(28, 19, 53);
+	background-color: rgb(9, 8, 12);
 	color: white;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
 }

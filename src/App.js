@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-// import Image from './homepage.jpg';
-
+import { Browser as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -18,9 +17,15 @@ class App extends Component {
 				</div>
 				<div className="navbar">
 					<ul>
-						<li>About Me</li>
-						<li>Portfolio</li>
-						<li>Let's Build Something</li>
+						<li>
+							<Link to="/me">About Me</Link>
+						</li>
+						<li>
+							<Link to="/portfolio">Portfolio</Link>
+						</li>
+						<li>
+							<Link to="/contact">Let's Build Something</Link>
+						</li>
 					</ul>
 				</div>
 				<div className="footer">footer</div>
