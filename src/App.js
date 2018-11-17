@@ -16,7 +16,13 @@ class App extends Component {
 					{/* <img src={logo} className="app-logo" /> */}
 					<p classname="written">Stuff written</p>
 				</div>
-				<div className="navbar">nav</div>
+				<div className="navbar">
+					<ul>
+						<li>About Me</li>
+						<li>Portfolio</li>
+						<li>Let's Build Something</li>
+					</ul>
+				</div>
 				<div className="footer">footer</div>
 			</div>
 
