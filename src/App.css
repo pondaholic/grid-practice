@@ -47,26 +47,6 @@ h1 {
 	max-height: 650px;
 }
 
-.navbar {
-	grid-area: navbar;
-	justify-self: right;
-	color: white;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	float: right;
-}
-
-li {
-	float: right;
-	padding: 20px 10px 10px 10px;
-	text-align: right;
-}
-
 .footer {
 	grid-area: footer;
 	background-color: rgb(9, 8, 12);

@@ -1,53 +1,25 @@
-import React, { Component } from 'react';
-import { Browser as Router, Route, Link } from 'react-router-dom';
+import React from 'react';
+
+import NavBar from './navbar';
+import AboutMe from './about';
+
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
 	render() {
 		let title = `{ Full Stack Developer : Shelly Leung }`;
 		return (
 			<div className="site-body">
 				<div className="header">
-					{/* <img src={Image} alt="hand and code" /> */}
 					<h1>{title}</h1>
 				</div>
+				<NavBar />
 				<div className="body">
-					{/* <img src={logo} className="app-logo" /> */}
 					<p classname="written">Stuff written</p>
-				</div>
-				<div className="navbar">
-					<ul>
-						<li>
-							<Link to="/me">About Me</Link>
-						</li>
-						<li>
-							<Link to="/portfolio">Portfolio</Link>
-						</li>
-						<li>
-							<Link to="/contact">Let's Build Something</Link>
-						</li>
-					</ul>
+					<AboutMe />
 				</div>
 				<div className="footer">footer</div>
 			</div>
-
-			// <div className="site-border">
-			// 	<div className="site-body">
-			// 		<div className="container">container</div>
-			// 		<img src={logo} className="App-logo" alt="logo" />
-			// 		<p>
-			// 			Edit <code>src/App.js</code> and save to reload.
-			// 		</p>
-			// 		<a
-			// 			className="App-link"
-			// 			href="https://reactjs.org"
-			// 			target="_blank"
-			// 			rel="noopener noreferrer"
-			// 		>
-			// 			Learn React
-			// 		</a>
-			// 	</div>
-			// </div>
 		);
 	}
 }
