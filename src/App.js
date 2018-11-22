@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
 import NavBar from './navbar';
 import AboutMe from './about';
@@ -16,7 +17,7 @@ class App extends React.Component {
 				<NavBar />
 				<div className="body">
 					<p classname="written">Stuff written</p>
-					<AboutMe />
+					<Route exact path="/me" component={() => <AboutMe />} />
 				</div>
 				<div className="footer">footer</div>
 			</div>
