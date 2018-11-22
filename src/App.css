@@ -32,6 +32,11 @@ h1 {
 	font-size: 20px;
 }
 
+h1 a {
+	color: white;
+	text-decoration: none;
+}
+
 .written {
 	grid-area: paragraph;
 	color: white;

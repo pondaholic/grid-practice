@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 
 import NavBar from './navbar';
 import AboutMe from './about';
@@ -12,7 +12,9 @@ class App extends React.Component {
 		return (
 			<div className="site-body">
 				<div className="header">
-					<h1>{title}</h1>
+					<h1>
+						<Link to="/">{title}</Link>
+					</h1>
 				</div>
 				<NavBar />
 				<div className="body">
