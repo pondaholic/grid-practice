@@ -4,21 +4,24 @@
 	color: white;
 	display: grid;
 	height: 650px;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 10% 1fr;
+	grid-template-columns: 75% 1fr;
 	grid-template-areas:
-		'. h2 .'
-		'ul . .'
-		'second . .'
-		'third . .';
+		'h2 .'
+		'first . '
+		'second . '
+		'third . ';
 }
 
 .about-me ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 50px;
 	overflow: hidden;
 	float: left;
+	grid-area: first;
+	display: flex;
+	flex-direction: column;
 }
 
 .about-me ul li {
@@ -28,16 +31,5 @@
 h2 {
 	grid-area: h2;
 	justify-self: center;
-}
-
-.first {
-	grid-area: first;
-}
-
-.second {
-	grid-area: second;
-}
-
-.third {
-	grid-area: third;
+	margin: auto;
 }
