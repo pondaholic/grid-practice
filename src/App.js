@@ -6,6 +6,7 @@ import Welcome from './welcome';
 import AboutMe from './about';
 import Contact from './contact';
 import Footer from './footer';
+import Portfolio from './portfolio';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ class App extends React.Component {
 				<NavBar />
 				<div className="body">
 					<Route exact path="/" component={() => <Welcome />} />
+					<Route exact path="/portfolio" component={() => <Portfolio />} />
 					<Route exact path="/me" component={() => <AboutMe />} />
 					<Route exact path="/contact" component={() => <Contact />} />
 				</div>

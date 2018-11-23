@@ -1,0 +1,25 @@
+.portfolio {
+	background: linear-gradient(black, rgb(24, 23, 23), rgb(28, 19, 53), black);
+	height: 650px;
+	display: grid;
+	grid-template-rows: 33% 30% 30%;
+	/* grid-template-columns: 1fr; */
+	grid-template-areas: 'one two three';
+	color: white;
+}
+
+.project-1 {
+	grid-area: one;
+}
+
+.project-2 {
+	grid-area: two;
+}
+
+.project-3 {
+	grid-area: three;
+}
+
+img {
+	width: 50%;
+}
