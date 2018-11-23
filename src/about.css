@@ -1,4 +1,6 @@
 .about-me {
+	background-image: url('./about.jpg');
+	background-size: cover;
 	color: white;
 	display: grid;
 	height: 650px;

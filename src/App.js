@@ -20,7 +20,6 @@ class App extends React.Component {
 				</div>
 				<NavBar />
 				<div className="body">
-					{/* <p className="written">Stuff written</p> */}
 					<Route exact path="/" component={() => <Welcome />} />
 					<Route exact path="/me" component={() => <AboutMe />} />
 					<Route exact path="/contact" component={() => <Contact />} />
