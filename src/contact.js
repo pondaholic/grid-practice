@@ -8,7 +8,8 @@ export default class Contact extends React.Component {
 			<div className="contact-form">
 				<p>
 					Please use the Contact Form below to send me a message or just email
-					me directly here: sleung102@yahoo.com
+					me directly here:{' '}
+					<a href="mailto:sleung102@yahoo.com">sleung102@yahoo.com</a>
 				</p>
 				<form action="https://formspree.io/sleung102@yahoo.com" method="POST">
 					<input type="text" name="name" placeholder="Name" />

@@ -2,7 +2,7 @@
 	background: linear-gradient(black, rgb(24, 23, 23), rgb(28, 19, 53), black);
 	height: 650px;
 	display: grid;
-	grid-template-rows: 33% 30% 30%;
+	grid-template-rows: 1fr 1fr 1fr;
 	/* grid-template-columns: 1fr; */
 	grid-template-areas: 'one two three';
 	color: white;
@@ -20,6 +20,20 @@
 	grid-area: three;
 }
 
+.portfolio h3 {
+	padding: 10px;
+	margin: auto;
+}
+
+.portfolio p {
+	padding: 3px;
+}
+
 img {
 	width: 50%;
+}
+
+.portfolio a {
+	color: white;
+	text-decoration-line: underline;
 }
