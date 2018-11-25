@@ -5,7 +5,7 @@ import NavBar from './navbar';
 import Welcome from './welcome';
 import AboutMe from './about';
 import Contact from './contact';
-import Footer from './footer';
+// import Footer from './footer';
 import Portfolio from './portfolio';
 
 import './App.css';
@@ -27,7 +27,7 @@ class App extends React.Component {
 					<Route exact path="/me" component={() => <AboutMe />} />
 					<Route exact path="/contact" component={() => <Contact />} />
 				</div>
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 		);
 	}
