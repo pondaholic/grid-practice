@@ -50,8 +50,9 @@ img {
 	color: white;
 	text-decoration-line: underline;
 }
-/* 
-.portfolio a:hover {
-	background-color: #ddd;
-	color: blue;
-} */
+
+.end {
+	/* padding: 5px; */
+	margin: 8px;
+	border-top: 1px solid orange;
+}

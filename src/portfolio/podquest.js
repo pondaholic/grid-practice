@@ -11,6 +11,7 @@ export default function Podquest() {
 				This is a podcast searching app that allows users to listen to and keep
 				track of their favorite channels as well as episodes.
 			</p>
+			<div className="end" />
 			<p>
 				<b>My Contributions:</b>
 			</p>
@@ -21,14 +22,17 @@ export default function Podquest() {
 				subscribe to their favorite channels and the backend for the information
 				to persist.
 			</p>
+			<div className="end" />
 			<p>
 				<b>Co-collaborators:</b>
 			</p>
 			<p>Christopher Gonzalez, John Cosgrove, Clinton Owen & Kathy LeBoeuf</p>
+			<div className="end" />
 			<p>
 				<b>Tech Stack:</b>
 			</p>
 			<p>MongoDB, Express, React, and Node were used for this app.</p>
+			<div className="end" />
 			<p>
 				<b>Links to view the project:</b>
 			</p>

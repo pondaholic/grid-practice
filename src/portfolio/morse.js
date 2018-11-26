@@ -12,6 +12,7 @@ export default function Morse() {
 				a spaced repetition algorithm to present information that would repeat
 				only what the user hasn't yet learned.
 			</p>
+			<div className="end" />
 			<p>
 				<b>My Contributions:</b>
 			</p>
@@ -21,14 +22,19 @@ export default function Morse() {
 				backend when the user logged out so that they may continue where they
 				left off when they log back in.
 			</p>
+			<div className="end" />
+
 			<p>
 				<b>Co-collaborators:</b>
 			</p>
 			<p>Christopher Gonzalez & Ryan Ureta</p>
+			<div className="end" />
 			<p>
 				<b>Tech Stack:</b>
 			</p>
 			<p>MongoDB, Express, React, and Node were used for this app.</p>
+			<div className="end" />
+
 			<p>
 				<b>Links to view the project:</b>
 			</p>

@@ -13,10 +13,12 @@ export default function MTG() {
 				create a deck to nerd out with friends or just create it because you had
 				an idea, without having to buy all the necessary cards.
 			</p>
+			<div className="end" />
 			<p>
 				<b>Tech Stack:</b>
 			</p>
 			<p>Postgres, Express, React, and Node were used for this app.</p>
+			<div className="end" />
 			<p>
 				<b>Links to view the project:</b>
 			</p>
