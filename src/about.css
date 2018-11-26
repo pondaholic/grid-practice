@@ -3,7 +3,7 @@
 	background-size: cover;
 	color: white;
 	display: grid;
-	height: 650px;
+	height: 80vh;
 	grid-template-rows: 20% 1fr;
 	grid-template-columns: 75% 1fr;
 	grid-template-areas:

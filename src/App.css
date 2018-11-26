@@ -5,7 +5,6 @@
 
 body {
 	display: block;
-	height: 100%;
 	background: linear-gradient(black, rgb(24, 23, 23), rgb(28, 19, 53), black);
 	overflow: auto;
 }
@@ -15,10 +14,9 @@ body {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 0.5fr 4fr 3fr 0.5fr;
-	grid-template-rows: 10% 80% 10%;
+	grid-template-rows: 1fr 9fr;
 	grid-template-areas:
 		'. header navbar .'
-		'. body body .'
 		'. body body .';
 }
 
@@ -49,7 +47,7 @@ h1 a {
 	grid-template-areas: 'paragraph .';
 	background-image: url('./homepage.jpg');
 	background-size: cover;
-	max-height: 800px;
+	height: 80vh;
 }
 
 .footer {

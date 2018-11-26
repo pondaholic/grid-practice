@@ -1,9 +1,9 @@
 .portfolio {
 	background-image: url('./portfolio.jpg');
 	background-size: cover;
-	height: 1000px;
+	height: auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-areas: 'one one one' 'two two two' 'three three three';
 	color: white;
 }
