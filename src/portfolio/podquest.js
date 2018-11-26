@@ -24,7 +24,7 @@ export default function Podquest() {
 			<p>
 				<b>Co-collaborators:</b>
 			</p>
-			<p>Chris John & Kathy</p>
+			<p>Christopher Gonzalez, John Cosgrove, Clinton Owen & Kathy LeBoeuf</p>
 			<p>
 				<b>Tech Stack:</b>
 			</p>

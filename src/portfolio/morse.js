@@ -24,7 +24,7 @@ export default function Morse() {
 			<p>
 				<b>Co-collaborators:</b>
 			</p>
-			<p>Chris & Ryan</p>
+			<p>Christopher Gonzalez & Ryan Ureta</p>
 			<p>
 				<b>Tech Stack:</b>
 			</p>

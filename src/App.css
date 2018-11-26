@@ -14,7 +14,7 @@ body {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 0.5fr 4fr 3fr 0.5fr;
-	grid-template-rows: 1fr 9fr;
+	grid-template-rows: 50px 9fr;
 	grid-template-areas:
 		'. header navbar .'
 		'. body body .';
