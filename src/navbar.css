@@ -17,3 +17,6 @@ li {
 	padding: 20px 10px 10px 10px;
 	text-align: right;
 }
+
+@media screen and (max-width: 320px) {
+}
