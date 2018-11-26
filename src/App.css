@@ -19,7 +19,7 @@ body {
 	grid-template-areas:
 		'. header navbar .'
 		'. body body .'
-		'. footer footer .';
+		'. body body .';
 }
 
 .header {
