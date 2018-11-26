@@ -32,3 +32,38 @@ h2 {
 	grid-area: h2;
 	margin: auto;
 }
+
+@media screen and (max-width: 414px) {
+	.about-me {
+		grid-template-rows: 10vh 1fr;
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			'h2'
+			'first'
+			'second'
+			'third';
+	}
+
+	.about-me h2 {
+		margin: auto;
+		height: 20px;
+	}
+
+	.about-me h3 {
+		padding-top: 10px;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.about-me ul {
+		padding: 10px;
+		border-top: gray 0.5px solid;
+		margin: 0 15px;
+		background: rgba(225, 225, 255, 0.1);
+	}
+
+	.about-me li {
+		padding: 8px;
+		margin: 0 auto;
+	}
+}

@@ -21,3 +21,22 @@
 	margin-top: 5px;
 	text-align: left;
 }
+
+@media screen and (max-width: 414px) {
+	.welcome {
+		margin: 180px auto;
+	}
+
+	.written-body p {
+		font-size: 12px;
+		margin-left: 40px;
+		margin-top: 5px;
+		text-align: left;
+	}
+
+	.written {
+		font-size: 12px;
+		color: white;
+		margin-left: 40px;
+	}
+}

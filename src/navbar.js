@@ -10,7 +10,7 @@ export default function NavBar() {
 				<li>
 					<Link to="/me">About Me</Link>
 				</li>
-				<li>
+				<li className="middle-link">
 					<Link to="/portfolio">Portfolio</Link>
 				</li>
 				<li>

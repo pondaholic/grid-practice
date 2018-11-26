@@ -17,3 +17,22 @@ li {
 	padding: 20px 10px 10px 10px;
 	text-align: right;
 }
+
+.divider {
+	display: none;
+}
+
+@media screen and (max-width: 414px) {
+	.navbar {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+	}
+	.navbar li {
+		padding: 9px;
+	}
+	.middle-link {
+		border-right: solid white 1px;
+		border-left: solid white 1px;
+	}
+}

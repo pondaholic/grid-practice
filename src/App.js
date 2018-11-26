@@ -5,7 +5,6 @@ import NavBar from './navbar';
 import Welcome from './welcome';
 import AboutMe from './about';
 import Contact from './contact';
-// import Footer from './footer';
 import Portfolio from './portfolio/portfolio';
 
 import './App.css';
