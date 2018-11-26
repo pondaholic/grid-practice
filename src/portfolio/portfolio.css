@@ -11,16 +11,22 @@
 .project-1 {
 	grid-area: one;
 	padding: 50px;
+	display: flex;
+	flex-direction: row;
 }
 
 .project-2 {
 	grid-area: two;
 	padding: 50px;
+	display: flex;
+	flex-direction: row;
 }
 
 .project-3 {
 	grid-area: three;
 	padding: 50px;
+	display: flex;
+	flex-direction: row;
 }
 
 .portfolio h3 {
@@ -31,11 +37,12 @@
 }
 
 .portfolio p {
-	padding: 3px;
+	padding: 5px;
+	width: 380px;
 }
 
 img {
-	width: 60%;
+	width: 100%;
 	float: right;
 }
 
@@ -43,3 +50,8 @@ img {
 	color: white;
 	text-decoration-line: underline;
 }
+/* 
+.portfolio a:hover {
+	background-color: #ddd;
+	color: blue;
+} */
