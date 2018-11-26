@@ -57,17 +57,22 @@ li a {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
 	.site-body {
 		background: black;
 		display: grid;
 		justify-content: center;
 		grid-template-columns: 1fr;
-		grid-template-rows: 5vh 5vh 1fr;
+		grid-template-rows: 8vh 6vh 1fr;
 		grid-template-areas:
 			'header'
 			'navbar'
 			'body';
+	}
+
+	.body {
+		height: auto;
+		margin: 5px 0;
 	}
 
 	.header {
@@ -76,7 +81,8 @@ li a {
 	}
 
 	h1 {
-		padding: 2px;
-		font-size: 12px;
+		padding: 0px;
+		margin: auto;
+		font-size: 15px;
 	}
 }
