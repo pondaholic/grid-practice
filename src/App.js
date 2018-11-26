@@ -5,7 +5,7 @@ import NavBar from './navbar';
 import Welcome from './welcome';
 import AboutMe from './about';
 import Contact from './contact';
-// import Footer from './footer';
+import HamburgerNav from './hamburger-nav';
 import Portfolio from './portfolio/portfolio';
 
 import './App.css';
@@ -21,6 +21,7 @@ class App extends React.Component {
 					</h1>
 				</div>
 				<NavBar />
+				<HamburgerNav />
 				<div className="body">
 					<Route exact path="/" component={() => <Welcome />} />
 					<Route exact path="/portfolio" component={() => <Portfolio />} />
