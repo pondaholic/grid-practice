@@ -49,7 +49,7 @@ h1 a {
 	grid-template-areas: 'paragraph .';
 	background-image: url('./homepage.jpg');
 	background-size: cover;
-	max-height: 650px;
+	max-height: 800px;
 }
 
 .footer {
