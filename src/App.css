@@ -63,7 +63,7 @@ li a {
 		display: grid;
 		justify-content: center;
 		grid-template-columns: 1fr;
-		grid-template-rows: 8vh 6vh 1fr;
+		/* grid-template-rows: 8vh 6vh 1fr; */
 		grid-template-areas:
 			'header'
 			'navbar'
@@ -72,7 +72,7 @@ li a {
 
 	.body {
 		grid-template-columns: 8vh 1fr;
-		margin: 5px 0;
+		margin: auto;
 	}
 
 	.header {
