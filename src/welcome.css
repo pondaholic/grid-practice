@@ -22,6 +22,10 @@
 	text-align: left;
 }
 
+.social {
+	padding: 10px;
+}
+
 @media screen and (max-width: 414px) {
 	.welcome {
 		margin: 180px auto;

@@ -1,11 +1,10 @@
 import React from 'react';
 
-import './footer.css';
+import './social.css';
 
-export default function Footer() {
+export default function Social() {
 	return (
-		<div className="footer">
-			<p>Created by: Shelly</p>
+		<div className="social-links">
 			<ul>
 				<li>
 					<a href="https://twitter.com/le__she">Twitter</a>

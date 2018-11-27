@@ -33,6 +33,10 @@ h2 {
 	margin: auto;
 }
 
+.about-me p {
+	padding-top: 8px;
+}
+
 @media screen and (max-width: 414px) {
 	.about-me {
 		grid-template-rows: 10vh 1fr;
@@ -62,8 +66,10 @@ h2 {
 		background: rgba(225, 225, 255, 0.1);
 	}
 
-	.about-me li {
+	.about-me ul li {
 		padding: 8px;
 		margin: 0 auto;
+		float: none;
+		text-align: center;
 	}
 }

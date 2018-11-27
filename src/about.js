@@ -8,12 +8,33 @@ export default function AboutMe() {
 			<h2>All About Me!</h2>
 			<ul>
 				<h3>
-					<li className="first">Thing 1: A Passion for the Web</li>
+					<li className="first">
+						Thing 1: A Passion for Programming/Graduating from a Coding Bootcamp
+					</li>
 				</h3>
 				<p>
-					I suppose I could ask you why I'd put myself through months of coding
-					bootcamp if I didn't have a passion for it. But, then that would be
-					rhetoical since you can't answer me.
+					I am a recent graduate of a coding bootcamp (Thinkful, if you're
+					curious). Most people would roll their eyes. "Oh, another coding
+					graduate. What can you really learn in a few months?" The answer is:
+					it depends. I felt I learned enough to know I have a thirst for
+					programming. To be honest, I entered my coding bootcamp full of doubt.
+					I was basically riddled with Imposter's Syndrome. But, what I've
+					learned is that programming is a constant learning process. It's not
+					something you just know after a while.
+				</p>
+				<p>
+					What was most valuable is that I learned coding is one of the few
+					things I can see myself doing permanently. I can just sit there and
+					problem-solve; and I enjoy problem-solving! Mostly, I, like many
+					others, enjoy the post-solving success-high.{' '}
+				</p>
+				<p>
+					What makes learning to code important? Instrinsic in the
+					problem-sovling process is asking for help. Somehow, after "growing
+					up," most of us have lost the ability to willingly and honestly ask
+					for help. We can't know everything; we can't solve everything. We
+					aren't black holes are communities unto ourselves. That's what
+					programming/coding bootcamp has given me.
 				</p>
 				<h3>
 					<li className="second">Thing 2: Team Player</li>
