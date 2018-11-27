@@ -12,7 +12,7 @@ import './portfolio.css';
 export default class Portfolio extends React.Component {
 	render() {
 		return (
-			<div className="portfolio">
+			<div className="portfolio" role="main">
 				<div className="project-1">
 					<MTG />
 					<a

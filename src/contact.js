@@ -5,18 +5,28 @@ import './contact.css';
 export default class Contact extends React.Component {
 	render() {
 		return (
-			<div className="contact-form">
+			<div className="contact-form" aria-label="a form to contact me with">
 				<p>
 					Please use the Contact Form below to send me a message or just email
 					me directly here:{' '}
-					<a href="mailto:sleung102@yahoo.com">sleung102@yahoo.com</a>
+					<a href="mailto:sleung102@yahoo.com" aria-label="my email address">
+						sleung102@yahoo.com
+					</a>
 				</p>
 				<form action="https://formspree.io/sleung102@yahoo.com" method="POST">
-					<input type="text" name="name" placeholder="Name" required={true} />
+					<input
+						type="text"
+						name="name"
+						aria-label="name"
+						label="name"
+						placeholder="Name"
+						required={true}
+					/>
 					<textarea
-						// className="message"
+						label="message"
 						type="textarea"
 						name="message"
+						aria-label="message to be sent"
 						placeholder="Yes? You have a message for me?"
 					/>
 					<button type="submit">Send</button>

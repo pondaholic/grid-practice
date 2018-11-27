@@ -6,7 +6,7 @@ import './welcome.css';
 
 export default function Welcome() {
 	return (
-		<div className="welcome">
+		<div className="welcome" role="main">
 			<p className="written">Hello,</p>
 			<div className="written-body">
 				<p>My name is Shelly. I am a Full Stack Developer.</p>

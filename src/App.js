@@ -16,7 +16,9 @@ class App extends React.Component {
 			<div className="site-body">
 				<div className="header">
 					<h1>
-						<Link to="/">{title}</Link>
+						<Link to="/" aria-label="my name that leads back to the homepage">
+							{title}
+						</Link>
 					</h1>
 				</div>
 				<NavBar />

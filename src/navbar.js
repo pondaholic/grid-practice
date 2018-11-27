@@ -5,15 +5,15 @@ import './navbar.css';
 
 export default function NavBar() {
 	return (
-		<div className="navbar">
+		<div className="navbar" aria-label="navigation bar">
 			<ul>
-				<li>
+				<li aria-label="About me link">
 					<Link to="/me">About Me</Link>
 				</li>
-				<li className="middle-link">
+				<li className="middle-link" aria-label="portfolio link">
 					<Link to="/portfolio">Portfolio</Link>
 				</li>
-				<li>
+				<li aria-label="contact me link">
 					<Link to="/contact">Let's Build Something</Link>
 				</li>
 			</ul>

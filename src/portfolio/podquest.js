@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Podquest() {
 	return (
-		<div className="mtg-text">
+		<div className="mtg-text" aria-label="about my podquest app">
 			<h3>PodQuest App</h3>
 			<p>
 				<b>Why?</b>
@@ -40,6 +40,7 @@ export default function Podquest() {
 				href="https://github.com/thinkful-ei23/podquest-client"
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label="link to view my project's github"
 			>
 				<p>
 					<i>PodQuest' Github</i>
@@ -49,6 +50,7 @@ export default function Podquest() {
 				href="https://github.com/thinkful-ei23/podquest-server"
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label="link to view my project's server-side code on github"
 			>
 				<p>
 					<i>Link to server-side code</i>
@@ -58,6 +60,7 @@ export default function Podquest() {
 				href="https://podquest-app.herokuapp.com/"
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label="link to my project's live app"
 			>
 				<p>Link to live app, or click on the image</p>
 			</a>

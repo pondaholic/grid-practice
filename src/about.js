@@ -4,14 +4,14 @@ import './about.css';
 
 export default function AboutMe() {
 	return (
-		<div className="about-me">
+		<div className="about-me" role="main">
 			<h2>All About Me!</h2>
 			<ul>
-				<h3>
-					<li className="first">
+				<li className="first" aria-label="about my passion for programming">
+					<h3>
 						Thing 1: A Passion for Programming/Graduating from a Coding Bootcamp
-					</li>
-				</h3>
+					</h3>
+				</li>
 				<p>
 					I am a recent graduate of a coding bootcamp (Thinkful, if you're
 					curious). Most people would roll their eyes. "Oh, another coding
@@ -33,9 +33,9 @@ export default function AboutMe() {
 					programming/coding bootcamp has given me; that's why I'm passionate
 					about programming.
 				</p>
-				<h3>
-					<li className="second">Thing 2: A Team Player</li>
-				</h3>
+				<li className="second" aria-label="about my ability to work on teams">
+					<h3>Thing 2: A Team Player</h3>
+				</li>
 				<p>
 					While not everyone is a team player, I would jump at the any chance to
 					learn from fellow programmers and seniors with more experience. It's
@@ -44,9 +44,9 @@ export default function AboutMe() {
 					communicate and, most important, learn to listen. Listening and
 					communicating are key when it comes to coding projects.
 				</p>
-				<h3>
-					<li className="third">Thing 3: A World Outside Code?</li>
-				</h3>
+				<li className="third" aria-label="about my hobbies">
+					<h3>Thing 3: A World Outside Code?</h3>
+				</li>
 				<p>
 					Is there a world outside of programming? For a while, I didn't have
 					any life outside of just trying to figure out Javascript, Python, CSS,
@@ -57,11 +57,17 @@ export default function AboutMe() {
 					life outside coding that prevents me from burning out. I wear many
 					hats outside programming, including: carpentry, photography, painting,
 					and drawing. You can follow me on my{' '}
-					<a href="https://www.instagram.com/le.shelly/">
+					<a
+						href="https://www.instagram.com/le.shelly/"
+						aria-label="link to my photography instagram"
+					>
 						Photography Instagram
 					</a>{' '}
 					or my{' '}
-					<a href="https://www.instagram.com/mental.penumbra/">
+					<a
+						href="https://www.instagram.com/mental.penumbra/"
+						aria-label="link to my drawing instagram"
+					>
 						Illustration Instagram
 					</a>{' '}
 					if you're curious.

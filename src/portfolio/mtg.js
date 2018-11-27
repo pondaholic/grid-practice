@@ -2,7 +2,10 @@ import React from 'react';
 
 export default function MTG() {
 	return (
-		<div className="mtg-text">
+		<div
+			className="mtg-text"
+			aria-label="all about the Magic the Gathering Deck Creator"
+		>
 			<h3>MTG Deck App</h3>
 			<p>
 				<b>Why?</b>
@@ -26,6 +29,7 @@ export default function MTG() {
 				href="https://github.com/pondaholic/mtg-deck-creator"
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label="link to view deck creator's github"
 			>
 				<p>
 					<i>MTG's Github</i>
@@ -35,6 +39,7 @@ export default function MTG() {
 				href="https://github.com/pondaholic/mtg-server"
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label="link to view my project's server-side code"
 			>
 				<p>
 					<i>Link to server-side code</i>
@@ -44,6 +49,7 @@ export default function MTG() {
 				href="https://mtg-deck-creator.herokuapp.com/"
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label="link to view the app live"
 			>
 				<p>Link to live app, or click on the image</p>
 			</a>
