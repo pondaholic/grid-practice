@@ -36,8 +36,7 @@ h2 {
 
 .about-me p {
 	padding-top: 8px;
-	font-size: 14px;
-	line-height: 20px;
+	line-height: 17px;
 }
 
 @media screen and (max-width: 768px) {

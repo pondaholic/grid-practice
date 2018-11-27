@@ -42,6 +42,7 @@
 .portfolio p {
 	padding: 5px;
 	width: 380px;
+	line-height: 16px;
 }
 
 img {
