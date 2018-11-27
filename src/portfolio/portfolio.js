@@ -1,7 +1,7 @@
 import React from 'react';
 
-import mtg from './app-images/mtg.png';
-import podquest from './app-images/podquest.png';
+import mtg from './app-images/mtg-mockup.png';
+import podquest from './app-images/podq.png';
 import morse from './app-images/morse.png';
 import MTG from './mtg';
 import Podquest from './podquest';
