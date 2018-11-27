@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
 					<a href="mailto:sleung102@yahoo.com">sleung102@yahoo.com</a>
 				</p>
 				<form action="https://formspree.io/sleung102@yahoo.com" method="POST">
-					<input type="text" name="name" placeholder="Name" />
+					<input type="text" name="name" placeholder="Name" required={true} />
 					<textarea
 						// className="message"
 						type="textarea"
