@@ -33,7 +33,7 @@ export default function MTG() {
 				</p>
 			</a>
 			<a href="https://mtg-deck-creator.herokuapp.com/">
-				<p>Link to live app, or click on the image to the right.</p>
+				<p>Link to live app, or click on the image</p>
 			</a>
 		</div>
 	);
