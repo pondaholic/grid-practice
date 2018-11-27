@@ -3,14 +3,13 @@
 	background-size: cover;
 	height: auto;
 	display: grid;
-	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-areas: 'one one one' 'two two two' 'three three three';
 	color: white;
 }
 
 .project-1 {
 	grid-area: one;
-	padding: 50px;
+	padding: 35px;
 	display: flex;
 	flex-direction: row;
 	border-top: 1px solid #1f174a;
@@ -18,7 +17,7 @@
 
 .project-2 {
 	grid-area: two;
-	padding: 50px;
+	padding: 35px;
 	display: flex;
 	flex-direction: row;
 	border-top: 5px solid #1f174a;
@@ -27,7 +26,7 @@
 
 .project-3 {
 	grid-area: three;
-	padding: 50px;
+	padding: 35px;
 	display: flex;
 	flex-direction: row;
 }
@@ -46,13 +45,15 @@
 }
 
 img {
-	width: 100%;
+	width: 98%;
 	float: right;
+	/* margin: auto 8px; */
 }
 
 .portfolio a {
 	color: white;
 	text-decoration-line: underline;
+	margin: auto;
 }
 
 .end {
