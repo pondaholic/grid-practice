@@ -17,7 +17,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 10px 50px;
-	overflow: hidden;
+	overflow: auto;
 	float: left;
 	grid-area: first;
 	display: flex;
@@ -38,6 +38,13 @@ h2 {
 	font-size: 14px;
 }
 
+@media screen and (max-width: 768px) {
+	.about-me {
+		grid-template-rows: none;
+		grid-template-columns: none;
+	}
+}
+
 @media screen and (max-width: 414px) {
 	.about-me {
 		grid-template-rows: 10vh 1fr;
@@ -51,7 +58,7 @@ h2 {
 
 	.about-me h2 {
 		margin: auto;
-		height: 20px;
+		/* height: 20px; */
 	}
 
 	.about-me h3 {

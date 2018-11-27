@@ -57,26 +57,49 @@ img {
 	border-top: 3px solid #1f174a;
 }
 
+@media screen and (max-width: 768px) {
+	.project-1 {
+		flex-direction: column;
+		padding: 10px 20px;
+	}
+
+	.project-2 {
+		flex-direction: column;
+		padding: 10px 20px;
+		margin-top: 10px;
+	}
+
+	.project-3 {
+		flex-direction: column;
+		padding: 10px 20px;
+		margin-top: 10px;
+	}
+
+	.portfolio h3 {
+		font-size: 15px;
+	}
+
+	img {
+		width: 96%;
+		padding: 10px;
+		float: none;
+	}
+}
+
 @media screen and (max-width: 414px) {
 	.project-1 {
-		grid-area: one;
 		padding: 5px 0;
-		display: flex;
 		flex-direction: column;
 	}
 
 	.project-2 {
-		grid-area: two;
 		padding: 5px;
-		display: flex;
 		flex-direction: column;
 		margin-top: 10px;
 	}
 
 	.project-3 {
-		grid-area: three;
 		padding: 5px;
-		display: flex;
 		flex-direction: column;
 		margin-top: 10px;
 	}
