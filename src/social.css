@@ -25,3 +25,13 @@
 	font-size: 16px;
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 414px) {
+	.social-links ul {
+		padding: 0 0 0 190px;
+	}
+	.social-links ul li {
+		font-size: 12px;
+		padding: 8px;
+	}
+}
