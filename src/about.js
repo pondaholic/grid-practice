@@ -37,18 +37,24 @@ export default function AboutMe() {
 					programming/coding bootcamp has given me.
 				</p>
 				<h3>
-					<li className="second">Thing 2: Team Player</li>
+					<li className="second">Thing 2: A Team Player</li>
 				</h3>
 				<p>
 					While not everyone is a team player, I would jump at the any chance to
-					learn from fellow programmers and seniors with more experience.
+					learn from fellow programmers and seniors with more experience. It's
+					also an extension of my bootcamp history--the Engineering Immersion
+					program I was part of taught us via daily pair-partner programming. We
+					also formed groups to create applications and so experience writing
+					code for others to read and practiced reading others' code when adding
+					features.
 				</p>
 				<h3>
 					<li className="third">Thing 3: A World Outside Code?</li>
 				</h3>
 				<p>
 					Yes, I have a life outside coding because anyone who only obsesses
-					over a single matter tends to burn out.
+					over a single matter tends to burn out. I wear many hats outside
+					programming, including: carpentry, photography, and painting.
 				</p>
 			</ul>
 		</div>
