@@ -38,17 +38,29 @@ export default function Morse() {
 			<p>
 				<b>Links to view the project:</b>
 			</p>
-			<a href="https://github.com/thinkful-ei23/SRC-Morse-Client">
+			<a
+				href="https://github.com/thinkful-ei23/SRC-Morse-Client"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<p>
 					<i>Morse Code's Github</i>
 				</p>
 			</a>
-			<a href="https://github.com/thinkful-ei23/SRC-Morse-Server">
+			<a
+				href="https://github.com/thinkful-ei23/SRC-Morse-Server"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<p>
 					<i>Link to server-side code</i>
 				</p>
 			</a>
-			<a href="https://morse-learning-app.herokuapp.com">
+			<a
+				href="https://morse-learning-app.herokuapp.com"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<p>Link to live app, or click on the image</p>
 			</a>
 		</div>

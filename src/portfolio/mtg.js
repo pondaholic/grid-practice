@@ -22,17 +22,29 @@ export default function MTG() {
 			<p>
 				<b>Links to view the project:</b>
 			</p>
-			<a href="https://github.com/pondaholic/mtg-deck-creator">
+			<a
+				href="https://github.com/pondaholic/mtg-deck-creator"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<p>
 					<i>MTG's Github</i>
 				</p>
 			</a>
-			<a href="https://github.com/pondaholic/mtg-server">
+			<a
+				href="https://github.com/pondaholic/mtg-server"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<p>
 					<i>Link to server-side code</i>
 				</p>
 			</a>
-			<a href="https://mtg-deck-creator.herokuapp.com/">
+			<a
+				href="https://mtg-deck-creator.herokuapp.com/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<p>Link to live app, or click on the image</p>
 			</a>
 		</div>

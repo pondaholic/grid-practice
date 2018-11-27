@@ -15,19 +15,31 @@ export default class Portfolio extends React.Component {
 			<div className="portfolio">
 				<div className="project-1">
 					<MTG />
-					<a href="https://mtg-deck-creator.herokuapp.com/">
+					<a
+						href="https://mtg-deck-creator.herokuapp.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src={mtg} alt="mtg app screenshot" />
 					</a>
 				</div>
 				<div className="project-2">
 					<Podquest />
-					<a href="https://podquest-app.herokuapp.com/">
+					<a
+						href="https://podquest-app.herokuapp.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src={podquest} alt="podquest homepage screenshot" />
 					</a>
 				</div>
 				<div className="project-3">
 					<Morse />
-					<a href="https://morse-learning-app.herokuapp.com">
+					<a
+						href="https://morse-learning-app.herokuapp.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src={morse} alt="screenshot of Morse Code questions" />
 					</a>
 				</div>
