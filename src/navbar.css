@@ -28,7 +28,7 @@ li {
 		padding: 9px;
 	}
 	.middle-link {
-		border-right: solid white 1px;
-		border-left: solid white 1px;
+		border-right: solid #1f174a 1px;
+		border-left: solid #1f174a 1px;
 	}
 }
