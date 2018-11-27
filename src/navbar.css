@@ -18,11 +18,7 @@ li {
 	text-align: right;
 }
 
-.divider {
-	display: none;
-}
-
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 695px) {
 	.navbar {
 		margin: 0 auto;
 		display: flex;

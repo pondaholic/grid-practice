@@ -26,7 +26,7 @@
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 695px) {
 	.social-links ul {
 		padding: 0 0 0 190px;
 	}

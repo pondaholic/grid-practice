@@ -57,7 +57,27 @@ li a {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
+	h1 {
+		padding: 12px 0;
+		margin: auto 0;
+		font-size: 15px;
+	}
+
+	li {
+		padding: 15px 7px;
+	}
+
+	a {
+		margin: auto;
+	}
+}
+
+/* @media screen and (max-width: 695px) {
+
+} */
+
+@media screen and (max-width: 695px) {
 	.site-body {
 		background: black;
 		display: grid;

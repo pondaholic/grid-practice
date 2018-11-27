@@ -4,7 +4,7 @@
 	color: white;
 	display: grid;
 	height: 80vh;
-	grid-template-rows: 20% 1fr;
+	grid-template-rows: 10vh 1fr;
 	grid-template-columns: 75% 1fr;
 	grid-template-areas:
 		'h2 .'
@@ -26,6 +26,7 @@
 
 .about-me ul li {
 	float: left;
+	text-align: left;
 }
 
 h2 {
@@ -40,13 +41,23 @@ h2 {
 
 @media screen and (max-width: 768px) {
 	.about-me {
+		padding-top: 5px;
 		grid-template-rows: none;
 		grid-template-columns: none;
+	}
+
+	h2 {
+		margin: 15px auto 8px auto;
+	}
+
+	.about-me ul {
+		padding: 0 25px;
 	}
 }
 
 @media screen and (max-width: 414px) {
 	.about-me {
+		padding-top: 5px;
 		grid-template-rows: 10vh 1fr;
 		grid-template-columns: 1fr;
 		grid-template-areas:
