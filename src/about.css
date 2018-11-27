@@ -16,7 +16,7 @@
 .about-me ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 50px;
+	padding: 10px 50px;
 	overflow: hidden;
 	float: left;
 	grid-area: first;
@@ -30,11 +30,12 @@
 
 h2 {
 	grid-area: h2;
-	margin: auto;
+	margin: auto auto 10px auto;
 }
 
 .about-me p {
 	padding-top: 8px;
+	font-size: 14px;
 }
 
 @media screen and (max-width: 414px) {
