@@ -29,10 +29,10 @@ export default function MTG() {
 				href="https://github.com/pondaholic/mtg-deck-creator"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-labelledby="link to view deck creator's github"
+				aria-label="link to view deck creator's github"
 			>
 				<p>
-					<i>MTG's Github</i>
+					<i class="fab fa-github fa-2x" />
 				</p>
 			</a>
 			<a

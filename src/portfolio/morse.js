@@ -44,10 +44,10 @@ export default function Morse() {
 				href="https://github.com/thinkful-ei23/SRC-Morse-Client"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-labelledby="link to view this app's github"
+				aria-label="link to view this app's github"
 			>
 				<p>
-					<i>Morse Code's Github</i>
+					<i class="fab fa-github fa-2x" />
 				</p>
 			</a>
 			<a

@@ -40,10 +40,10 @@ export default function Podquest() {
 				href="https://github.com/thinkful-ei23/podquest-client"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-labelledby="link to view my project's github"
+				aria-label="link to view my project's github"
 			>
 				<p>
-					<i>PodQuest' Github</i>
+					<i class="fab fa-github fa-2x" />
 				</p>
 			</a>
 			<a
