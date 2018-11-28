@@ -9,17 +9,22 @@
 }
 
 .written {
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 	margin-left: 40px;
 }
 
 .written-body p {
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 	margin-left: 75px;
-	margin-top: 5px;
 	text-align: left;
+}
+
+.email {
+	color: white;
+	text-align: center;
+	margin-left: 135px;
 }
 
 .social {
@@ -46,5 +51,8 @@
 
 	.social {
 		padding: 7px;
+	}
+	.email {
+		margin: 0 43px;
 	}
 }

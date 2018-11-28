@@ -13,7 +13,7 @@ export default function Social() {
 						rel="noopener noreferrer"
 						aria-labelledby="a link to my twitter account"
 					>
-						Twitter
+						<i class="fab fa-twitter fa-2x" />{' '}
 					</a>
 				</li>
 				<li>
@@ -23,7 +23,7 @@ export default function Social() {
 						rel="noopener noreferrer"
 						aria-labelledby="a link to my LinkedIn account"
 					>
-						LinkedIn
+						<i class="fab fa-linkedin fa-2x" />
 					</a>
 				</li>
 				<li>
@@ -33,7 +33,7 @@ export default function Social() {
 						rel="noopener noreferrer"
 						aria-labelledby="a link to my github"
 					>
-						Github
+						<i class="fab fa-github fa-2x" />
 					</a>
 				</li>
 			</ul>

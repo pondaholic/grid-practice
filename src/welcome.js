@@ -12,6 +12,16 @@ export default function Welcome() {
 				<p>My name is Shelly. I am a Full Stack Developer.</p>
 				<p>Thank you for visitng my virtual self-portrait.</p>
 				<p>Enjoy your stay.</p>
+				<p>If you'd like to drop me a line, you can email me at: </p>
+				<p>
+					<a
+						href="mailto:sleung102@yahoo.com"
+						aria-labelledby="my email address"
+						className="email"
+					>
+						sleung102@yahoo.com
+					</a>
+				</p>
 				<div className="social">
 					<p>You can also find me on: </p>
 					<Social />

@@ -17,8 +17,7 @@ export default function AboutMe() {
 				</li>
 				<p>
 					I am a recent graduate of a coding bootcamp (Thinkful, if you're
-					curious). Most people would roll their eyes. "Oh, another coding
-					graduate. What can you really learn in a few months?" I'm very
+					curious). I'm very
 					grateful to have entered into a coding bootcamp. I learned that I have
 					a thirst for programming.
 				</p>

@@ -1,33 +1,25 @@
-.social-links {
-	display: flex;
-	flex-direction: column-reverse;
-	position: relative;
-	bottom: 0;
-}
-
-.social-links p {
-	margin: auto;
-	text-align: center;
-}
-
 .social-links ul {
-	width: 80px;
-	padding: 0 303px;
+	width: 250px;
+	padding: 0 247px;
+	margin: 0 auto;
+	float: left;
 }
 
 .social-links ul li {
-	width: 80px;
 	padding: 10px;
 	margin-top: 0px;
-	float: none;
 	text-align: left;
-	font-size: 16px;
-	text-decoration: underline;
+	font-size: 20px;
+}
+
+.social-links i {
+	margin-left: 0;
 }
 
 @media screen and (max-width: 695px) {
 	.social-links ul {
-		padding: 0 0 0 190px;
+		width: auto;
+		padding: 0 0 0 99px;
 	}
 	.social-links ul li {
 		font-size: 12px;

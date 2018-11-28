@@ -22,7 +22,7 @@ li {
 	.navbar {
 		margin: 0 auto;
 		display: flex;
-		flex-direction: row;
+		flex-direction: row-reverse;
 	}
 	.navbar li {
 		padding: 9px;
