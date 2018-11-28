@@ -7,7 +7,10 @@ export default function AboutMe() {
 		<div className="about-me" role="main">
 			<h2>All About Me!</h2>
 			<ul>
-				<li className="first" aria-label="about my passion for programming">
+				<li
+					className="first"
+					aria-labelledby="about my passion for programming"
+				>
 					<h3>
 						Thing 1: A Passion for Programming/Graduating from a Coding Bootcamp
 					</h3>
@@ -33,7 +36,10 @@ export default function AboutMe() {
 					programming/coding bootcamp has given me; that's why I'm passionate
 					about programming.
 				</p>
-				<li className="second" aria-label="about my ability to work on teams">
+				<li
+					className="second"
+					aria-labelledby="about my ability to work on teams"
+				>
 					<h3>Thing 2: A Team Player</h3>
 				</li>
 				<p>
@@ -44,7 +50,7 @@ export default function AboutMe() {
 					communicate and, most important, learn to listen. Listening and
 					communicating are key when it comes to coding projects.
 				</p>
-				<li className="third" aria-label="about my hobbies">
+				<li className="third" aria-labelledby="about my hobbies">
 					<h3>Thing 3: A World Outside Code?</h3>
 				</li>
 				<p>
@@ -59,14 +65,14 @@ export default function AboutMe() {
 					and drawing. You can follow me on my{' '}
 					<a
 						href="https://www.instagram.com/le.shelly/"
-						aria-label="link to my photography instagram"
+						aria-labelledby="link to my photography instagram"
 					>
 						Photography Instagram
 					</a>{' '}
 					or my{' '}
 					<a
 						href="https://www.instagram.com/mental.penumbra/"
-						aria-label="link to my drawing instagram"
+						aria-labelledby="link to my drawing instagram"
 					>
 						Illustration Instagram
 					</a>{' '}

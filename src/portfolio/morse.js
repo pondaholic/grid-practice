@@ -2,7 +2,10 @@ import React from 'react';
 
 export default function Morse() {
 	return (
-		<div className="morse-text" aria-label="all about learning morse code app">
+		<div
+			className="morse-text"
+			aria-labelledby="all about learning morse code app"
+		>
 			<h3>Learn Morse Code App</h3>
 			<p>
 				<b>Why?</b>
@@ -41,7 +44,7 @@ export default function Morse() {
 				href="https://github.com/thinkful-ei23/SRC-Morse-Client"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="link to view this app's github"
+				aria-labelledby="link to view this app's github"
 			>
 				<p>
 					<i>Morse Code's Github</i>
@@ -51,7 +54,7 @@ export default function Morse() {
 				href="https://github.com/thinkful-ei23/SRC-Morse-Server"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="link to view the server-side code on github"
+				aria-labelledby="link to view the server-side code on github"
 			>
 				<p>
 					<i>Link to server-side code</i>
@@ -61,7 +64,7 @@ export default function Morse() {
 				href="https://morse-learning-app.herokuapp.com"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="link to use the app live"
+				aria-labelledby="link to use the app live"
 			>
 				<p>Link to live app, or click on the image</p>
 			</a>

@@ -11,7 +11,7 @@ export default function Social() {
 						href="https://twitter.com/le__she"
 						target="_blank"
 						rel="noopener noreferrer"
-						aria-label="a link to my twitter account"
+						aria-labelledby="a link to my twitter account"
 					>
 						Twitter
 					</a>
@@ -21,7 +21,7 @@ export default function Social() {
 						href="https://www.linkedin.com/in/le-she/"
 						target="_blank"
 						rel="noopener noreferrer"
-						aria-label="a link to my LinkedIn account"
+						aria-labelledby="a link to my LinkedIn account"
 					>
 						LinkedIn
 					</a>
@@ -31,7 +31,7 @@ export default function Social() {
 						href="https://github.com/pondaholic"
 						target="_blank"
 						rel="noopener noreferrer"
-						aria-label="a link to my github"
+						aria-labelledby="a link to my github"
 					>
 						Github
 					</a>

@@ -9,7 +9,10 @@ export default class Contact extends React.Component {
 				<p>
 					Please use the Contact Form below to send me a message or just email
 					me directly here:{' '}
-					<a href="mailto:sleung102@yahoo.com" aria-label="my email address">
+					<a
+						href="mailto:sleung102@yahoo.com"
+						aria-labelledby="my email address"
+					>
 						sleung102@yahoo.com
 					</a>
 				</p>
@@ -17,7 +20,7 @@ export default class Contact extends React.Component {
 					<input
 						type="text"
 						name="name"
-						aria-label="name"
+						aria-labelledby="name"
 						label="name"
 						placeholder="Name"
 						required={true}
@@ -26,7 +29,7 @@ export default class Contact extends React.Component {
 						label="message"
 						type="textarea"
 						name="message"
-						aria-label="message to be sent"
+						aria-labelledby="message to be sent"
 						placeholder="Yes? You have a message for me?"
 					/>
 					<button type="submit">Send</button>
