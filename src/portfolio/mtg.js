@@ -32,7 +32,7 @@ export default function MTG() {
 				aria-label="link to view deck creator's github"
 			>
 				<p>
-					<i class="fab fa-github fa-2x" />
+					<i class="fab fa-github fa-2x" /> <i>Client-side code</i>
 				</p>
 			</a>
 			<a
@@ -42,7 +42,7 @@ export default function MTG() {
 				aria-labelledby="link to view my project's server-side code"
 			>
 				<p>
-					<i>Link to server-side code</i>
+					<i class="fab fa-github fa-2x" /> <i>Server-side code</i>
 				</p>
 			</a>
 			<a
@@ -51,7 +51,9 @@ export default function MTG() {
 				rel="noopener noreferrer"
 				aria-labelledby="link to view the app live"
 			>
-				<p>Link to live app, or click on the image</p>
+				<p>
+					<i>Link to live app, or click on the image</i>
+				</p>
 			</a>
 		</div>
 	);

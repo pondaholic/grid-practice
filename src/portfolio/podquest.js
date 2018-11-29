@@ -36,34 +36,38 @@ export default function Podquest() {
 			<p>
 				<b>Links to view the project:</b>
 			</p>
-			<a
-				href="https://github.com/thinkful-ei23/podquest-client"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="link to view my project's github"
-			>
+			<div className="links">
 				<p>
-					<i class="fab fa-github fa-2x" />
+					<a
+						href="https://github.com/thinkful-ei23/podquest-client"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="link to view my project's github"
+					>
+						<i class="fab fa-github fa-2x" /> <i>Client-side code</i>
+					</a>
 				</p>
-			</a>
-			<a
-				href="https://github.com/thinkful-ei23/podquest-server"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-labelledby="link to view my project's server-side code on github"
-			>
-				<p>
-					<i>Link to server-side code</i>
-				</p>
-			</a>
-			<a
-				href="https://podquest-app.herokuapp.com/"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-labelledby="link to my project's live app"
-			>
-				<p>Link to live app, or click on the image</p>
-			</a>
+				<a
+					href="https://github.com/thinkful-ei23/podquest-server"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-labelledby="link to view my project's server-side code on github"
+				>
+					<p>
+						<i class="fab fa-github fa-2x" /> <i>Server-side code</i>
+					</p>
+				</a>
+				<a
+					href="https://podquest-app.herokuapp.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-labelledby="link to my project's live app"
+				>
+					<p>
+						<i>Link to live app, or click on the image</i>
+					</p>
+				</a>
+			</div>
 		</div>
 	);
 }

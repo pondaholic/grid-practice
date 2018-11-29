@@ -47,7 +47,7 @@ export default function Morse() {
 				aria-label="link to view this app's github"
 			>
 				<p>
-					<i class="fab fa-github fa-2x" />
+					<i class="fab fa-github fa-2x" /> <i>Client-side code</i>
 				</p>
 			</a>
 			<a
@@ -57,7 +57,7 @@ export default function Morse() {
 				aria-labelledby="link to view the server-side code on github"
 			>
 				<p>
-					<i>Link to server-side code</i>
+					<i class="fab fa-github fa-2x" /> <i>Server-side code</i>
 				</p>
 			</a>
 			<a
@@ -66,7 +66,9 @@ export default function Morse() {
 				rel="noopener noreferrer"
 				aria-labelledby="link to use the app live"
 			>
-				<p>Link to live app, or click on the image</p>
+				<p>
+					<i>Link to live app, or click on the image</i>
+				</p>
 			</a>
 		</div>
 	);
