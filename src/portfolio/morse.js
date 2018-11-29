@@ -29,7 +29,8 @@ export default function Morse() {
 			<p>
 				<b>Co-collaborators:</b>
 			</p>
-			<p>Christopher Gonzalez & Ryan Ureta</p>
+			<p>Christopher Gonzalez: User registration/login & CSS</p>
+			<p>Ryan Ureta: Client-side CSS</p>
 			<div className="end" />
 			<p>
 				<b>Tech Stack:</b>
@@ -67,6 +68,7 @@ export default function Morse() {
 				aria-labelledby="link to use the app live"
 			>
 				<p>
+					<i class="fas fa-desktop fa-2x" />{' '}
 					<i>Link to live app, or click on the image</i>
 				</p>
 			</a>

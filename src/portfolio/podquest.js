@@ -26,7 +26,13 @@ export default function Podquest() {
 			<p>
 				<b>Co-collaborators:</b>
 			</p>
-			<p>Christopher Gonzalez, John Cosgrove, Clinton Owen & Kathy LeBoeuf</p>
+			<p>Christopher Gonzalez: Favorites page, Favorites routes on Backend</p>
+			<p>John Cosgrove: React Component Testing</p>
+			<p>
+				Clinton Owen: Media Player, Testing, Responsive Navigation Bar, CSS
+				Responsive Design
+			</p>
+			<p>Kathy LeBoeuf: Client-side CSS & Landing Page copyedit</p>
 			<div className="end" />
 			<p>
 				<b>Tech Stack:</b>
@@ -64,6 +70,7 @@ export default function Podquest() {
 					aria-labelledby="link to my project's live app"
 				>
 					<p>
+						<i class="fas fa-desktop fa-2x" />{' '}
 						<i>Link to live app, or click on the image</i>
 					</p>
 				</a>

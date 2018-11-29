@@ -52,6 +52,7 @@ export default function MTG() {
 				aria-labelledby="link to view the app live"
 			>
 				<p>
+					<i class="fas fa-desktop fa-2x" />{' '}
 					<i>Link to live app, or click on the image</i>
 				</p>
 			</a>
