@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pondaholic.github.io/my-portfolio/static/css/main.03e1a149.chunk.css",
+    "main.js": "/pondaholic.github.io/my-portfolio/static/js/main.7567bfa7.chunk.js",
+    "main.js.map": "/pondaholic.github.io/my-portfolio/static/js/main.7567bfa7.chunk.js.map",
+    "runtime-main.js": "/pondaholic.github.io/my-portfolio/static/js/runtime-main.56760545.js",
+    "runtime-main.js.map": "/pondaholic.github.io/my-portfolio/static/js/runtime-main.56760545.js.map",
+    "static/js/2.78279ab7.chunk.js": "/pondaholic.github.io/my-portfolio/static/js/2.78279ab7.chunk.js",
+    "static/js/2.78279ab7.chunk.js.map": "/pondaholic.github.io/my-portfolio/static/js/2.78279ab7.chunk.js.map",
+    "index.html": "/pondaholic.github.io/my-portfolio/index.html",
+    "static/css/main.03e1a149.chunk.css.map": "/pondaholic.github.io/my-portfolio/static/css/main.03e1a149.chunk.css.map",
+    "static/js/2.78279ab7.chunk.js.LICENSE.txt": "/pondaholic.github.io/my-portfolio/static/js/2.78279ab7.chunk.js.LICENSE.txt",
+    "static/media/about.css": "/pondaholic.github.io/my-portfolio/static/media/about.7cc260e7.jpg",
+    "static/media/contact.css": "/pondaholic.github.io/my-portfolio/static/media/contact-me.97b81f85.jpg",
+    "static/media/App.css": "/pondaholic.github.io/my-portfolio/static/media/homepage.e8cb750c.jpg",
+    "static/media/morse.5ecbcb4b.png": "/pondaholic.github.io/my-portfolio/static/media/morse.5ecbcb4b.png",
+    "static/media/mtg-mockup.314fb059.png": "/pondaholic.github.io/my-portfolio/static/media/mtg-mockup.314fb059.png",
+    "static/media/podq.ea38b342.png": "/pondaholic.github.io/my-portfolio/static/media/podq.ea38b342.png",
+    "static/media/portfolio.css": "/pondaholic.github.io/my-portfolio/static/media/portfolio.5cdc632c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56760545.js",
+    "static/js/2.78279ab7.chunk.js",
+    "static/css/main.03e1a149.chunk.css",
+    "static/js/main.7567bfa7.chunk.js"
+  ]
+}
